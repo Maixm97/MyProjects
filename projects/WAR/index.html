@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WAR</title>
+<style>
+    #text-data {
+        float: left;
+    }
+
+    #game {
+        float: right;
+    }
+
+    .box3px {
+        border-width:5px;
+        border-style:solid;
+        border-radius: 20px;
+
+        margin-bottom: 5px;
+        margin-right: 500px;
+        width: 300px;
+    }
+</style>
+</head>
+<body>
+    <div id="text-data">
+        <h1>
+            War!
+        </h1>
+        <h3 id="winner">
+            Player 1 wins
+        </h2>
+        <h3>Player 1: <span id="p1-cards">20</span></h3>
+        <h3>Player 2: <span id="p2-cards">17</span></h3>
+    </div>
+    <div id="game">
+        <div id="p1" class="box3px">
+            <h1>Cards: <span>20</span></h1>
+            <h2>Card: <span id="p1-card-num">5</span> <span id="p1-card-type">Clover</span></h2>
+        </div>
+        <div id="p2" class="box3px">
+            <h1>Cards: <span>17</span></h1>
+            <h2>Card: <span id="2-card-num">1</span> <span id="p2-card-type">Hearts</span></h2>
+        </div>
+        <button>PLAY</button>
+    </div>
+</body>
+</html>
